@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <title>Calculator Chisna</title>
+</head>
+<body class="class-body">
+  <div class="class-container">
+    Cal<span id="cul" class="text-sky-400 dark:text-yellow-400">cul</span>ator
+  </div>
+  <div class="bg-slate-200 w-full p-2">
+    <!-- Start Theme -->
+    <div class="flex justify-center items-center font-Righteous w-full py-4">
+      <div class="text-center font-bold w-1/2">Themes</div>
+      <div class="w-1/2">
+        <div class="flex w-full justify-around">
+          <div id="tema-1" class="theme theme-1">Blue</div>
+          <div id="tema-2" class="theme theme-2">Yellow</div>
+        </div>
+      </div>  
+    </div>
+    <!-- End Theme -->
+
+    <!-- Start Screen -->
+    <div class="flex">
+      <input type="text" class="display-screen" value="0" disabled>
+    </div>
+    <!-- End Screen -->
+
+    <!-- Start Keypad -->
+    <div class="flex">
+      <button class="btn btn-long all-clear">AC</button>
+      <button value="%" class="btn btn-numb">%</button>
+      <button value="/" class="btn btn-theme-1 dark:btn-theme-2">/</button>
+    </div>
+    
+    <div class="flex">
+      <button value="7" class="btn btn-numb">7</button>
+      <button value="8" class="btn btn-numb">8</button>
+      <button value="9" class="btn btn-numb">9</button>
+      <button value="*" class="btn btn-theme-1 dark:btn-theme-2">x</button>
+    </div>
+
+    <div class="flex">
+      <button value="4" class="btn btn-numb">4</button>
+      <button value="5" class="btn btn-numb">5</button>
+      <button value="6" class="btn btn-numb">6</button>
+      <button value="+" class="btn btn-theme-1 dark:btn-theme-2">+</button>  
+    </div>
+
+    <div class="flex">
+      <button value="1" class="btn btn-numb">1</button>
+      <button value="2" class="btn btn-numb">2</button>
+      <button value="3" class="btn btn-numb">3</button>
+      <button value="-" class="btn btn-theme-1 dark:btn-theme-2">-</button>  
+    </div>
+
+    <div class="flex">
+      <button value="0" class="btn btn-long bg-sky-400 hover:bg-sky-600 dark:bg-yellow-400 dark:hover:bg-yellow-600">0</button>
+      <button value="." class="btn btn-numb">.</button>
+      <button class="btn btn-theme-1 dark:btn-theme-2 equal-sign">=</div>  
+    </div>
+    <!-- End Keypad -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
