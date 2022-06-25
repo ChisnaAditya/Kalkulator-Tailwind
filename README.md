@@ -1,6 +1,9 @@
 # Kalkulator-Tailwind
 Program ini merupakan tugas pelatihan FGA (Fresh Graduate Academy) dari Kominfo dengan tema pelatihan Javascript
 
+# Coba program
+https://chisnaaditya.github.io/Kalkulator-Tailwind/src/index.html
+
 # Terdapat 2 Tema, yaitu Blue dan Yellow
 <img width="1061" alt="Screen Shot 2022-06-16 at 10 39 27" src="https://user-images.githubusercontent.com/106673027/173986208-ba9d3599-9a87-4572-9a81-60161b08a49a.png">
 <img width="1041" alt="Screen Shot 2022-06-16 at 10 39 39" src="https://user-images.githubusercontent.com/106673027/173986273-14b7152f-de85-44f0-82f1-3c361ae60962.png">
